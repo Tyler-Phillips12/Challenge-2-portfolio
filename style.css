@@ -24,7 +24,7 @@ figure:hover {
 }
 /* sets background color of page and font size/family and cursor */
 body {
-  background-color: var(--dark-vader);
+  background-color: salmon;
   font-size: 20px;
   font-family: fantasy;
   cursor: crosshair;
@@ -43,6 +43,7 @@ h1.html {
 }
 /* hover effect when we hover over h1 */
 h1:hover {
+    transform:scale(2, 1,1);
   box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
     0 0 10px 15px var(--emerald);
 }
@@ -100,12 +101,12 @@ img.beauty {
 }
 /* hover effect when we hover over profile photo */
 img.beauty:hover {
-    transform:scale(1, 1);
   box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
     0 0 10px 15px var(--emerald);
 }
 /* hover effect over any img on the page expect those with designated classes */
 img:hover {
+    transform:scale(1.1, 1,1);
   border-style: solid;
   border-color: var(--dark-green);
   box-shadow: 0 0 10px 20px olivedrab, 0 0 20px 30px var(--office-green),
@@ -131,7 +132,7 @@ p.about-me {
 }
 /* hover effect for about me paragraph and scale transition */
 p.about-me:hover {
-    transform:scale(1.1, 1); 
+    transform:scale(1.01, 1.05); 
     margin: 1;
   box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
     0 0 10px 15px var(--emerald);
