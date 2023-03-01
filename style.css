@@ -1,0 +1,172 @@
+/* created main color theme to use throughout sheet */
+:root {
+  --dark-green: #2a4d14;
+  --office-green: #317b22;
+  --dark-vader: black;
+  --light-saber: white;
+  --emerald: #67e0a3;
+  --margin-all-around: 20px;
+  --box-shadow: var(--dark-green) 10px 6px 8px 15px;
+}
+
+header {
+  margin-top: 10px;
+}
+/* display inline flex with a flex wrap */
+figure {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+/* sets background color of page and font size/family and cursor */
+body {
+  background-color: var(--dark-vader);
+  font-size: 20px;
+  font-family: fantasy;
+  cursor: crosshair;
+}
+
+li {
+  padding: 10px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+/* heading margins and size */
+h1.html {
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+}
+/* hover effect when we hover over h1 */
+h1:hover {
+  box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
+    0 0 10px 15px var(--emerald);
+}
+/* h1 styles borders/box-shadows/alignment */
+h1 {
+  color: var(--office-green);
+  border-style: double;
+  border-color: var(--office-green);
+  border-width: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 12px 25px var(--dark-green),
+    0 0 15px 30px var(--office-green);
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+/* hover effect when we hover over our <a */
+a:hover {
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 12px 25px var(--dark-green),
+    0 0 15px 30px var(--office-green);
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+/* class of hover set so wont effect above aside */
+aside.img:hover {
+  border-style: groove;
+  border-width: 10px;
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 12px 25px var(--dark-green),
+    0 0 15px 30px var(--office-green);
+}
+
+li.grid {
+  display: flex;
+}
+/* set class of beauty to custoimize profile image */
+img.beauty {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  height: auto;
+  border-style: solid;
+  border-color: var(--dark-green);
+  border-radius: 750px;
+  border-width: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 20px 30px var(--office-green),
+    0 0 30px 40px var(--dark-green);
+}
+/* hover effect when we hover over profile photo */
+img.beauty:hover {
+  box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
+    0 0 10px 15px var(--emerald);
+}
+/* hover effect over any img on the page expect those with designated classes */
+img:hover {
+  border-style: solid;
+  border-color: var(--dark-green);
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 20px 30px var(--office-green),
+    0 0 30px 40px var(--dark-green);
+}
+/* img styles */
+img {
+  box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
+    0 0 10px 15px var(--emerald);
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* about me paragraph styles */
+p.about-me {
+  color: var(--office-green);
+  margin-top: 100px;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 0 0 10px 20px olivedrab, 0 0 20px 30px var(--office-green),
+    0 0 30px 40px var(--dark-green);
+}
+/* hover effect for about me paragraph */
+p.about-me:hover {
+  box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
+    0 0 10px 15px var(--emerald);
+}
+/* inline display for ul with content class */
+ul.content {
+  display: inline;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+/* anchor styles  */
+a {
+  color: var(--office-green);
+  border-style: groove;
+  border-radius: 5px;
+  border-color: var(--office-green);
+  color: var(--dark-green);
+  box-shadow: var(--dark-green) 5px 4px 8px 7px, 0 0 10px 20px olivedrab,
+    0 0 20px 30px var(--office-green), 0 0 30px 40px var(--dark-green);
+  border-width: 5px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  max-width: 350px;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 120px;
+  height: fit-content;
+  cursor: grabbing;
+}
+/* footer styles with hover effect  */
+footer.foot:hover {
+  color: var(--emerald);
+  text-align: center;
+  box-shadow: var(--dark-green) 5px 4px 8px 7px, 0 0 10px 20px olivedrab,
+    0 0 20px 30px var(--office-green), 0 0 30px 40px var(--dark-green);
+  border-width: 5px;
+}
+@media only screen and (max-width: 768px) {
+    }
+
+
+
