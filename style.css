@@ -13,9 +13,14 @@ header {
   margin-top: 10px;
 }
 /* display inline flex with a flex wrap */
+
 figure {
+    display: inline-flex;
+}
+figure:hover {
   display: inline-flex;
   flex-wrap: wrap;
+  transform:scale(.5, 1.); 
 }
 /* sets background color of page and font size/family and cursor */
 body {
@@ -95,6 +100,7 @@ img.beauty {
 }
 /* hover effect when we hover over profile photo */
 img.beauty:hover {
+    transform:scale(1, 1);
   box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
     0 0 10px 15px var(--emerald);
 }
@@ -123,8 +129,10 @@ p.about-me {
   box-shadow: 0 0 10px 20px olivedrab, 0 0 20px 30px var(--office-green),
     0 0 30px 40px var(--dark-green);
 }
-/* hover effect for about me paragraph */
+/* hover effect for about me paragraph and scale transition */
 p.about-me:hover {
+    transform:scale(1.1, 1); 
+    margin: 1;
   box-shadow: 0 0 8px 10px var(--office-green), 0 0 9px 11px olivedrab,
     0 0 10px 15px var(--emerald);
 }
