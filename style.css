@@ -146,6 +146,15 @@ img {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+img.float {
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 1500px;
+  box-shadow: var(--english-violet) 5px 4px 8px 7px,
+    0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
+    0 0 30px 40px var(--silver);
+}
 /* about me paragraph styles */
 p.about-me {
   color: var(--silver);
@@ -186,10 +195,10 @@ a {
   justify-content: center;
   max-width: 100%;
   font-size: 22px;
-  margin: 120px;
+  margin: 76px;
   height: fit-content;
   cursor: grabbing;
-  
+  margin-bottom: 125px;
 }
 /* footer styles with hover effect  */
 footer.foot:hover {
@@ -200,10 +209,5 @@ footer.foot:hover {
   border-width: 5px;
 }
 
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 }
-
-
