@@ -14,14 +14,10 @@
   --box-shadow: var(--dark-green) 10px 6px 8px 15px;
 }
 
-header {
-  margin-top: 10px;
-}
-/* display inline flex with a flex wrap */
-
 figure {
-  display: inline-flex;
-  flex-wrap: wrap;
+  margin-top: 75px;
+  float: right;
+  justify-content: center;
 }
 figure:hover {
   display: inline-block;
@@ -37,12 +33,6 @@ body {
 nav {
   display: inline-block;
   scroll-behavior: smooth;
-}
-
-li {
-  padding: 10px;
-  justify-content: space-between;
-  justify-content: space-around;
 }
 /* heading margins and size */
 h1.html {
@@ -74,6 +64,7 @@ h1 {
   border-width: 10px;
   padding: 40px;
   margin-bottom: 65px;
+  margin-top: 40px;
   box-shadow: 0 0 10px 20px var(--deep-purple),
     0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
   justify-content: center;
@@ -99,17 +90,10 @@ aside.img:hover {
     0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
 }
 
-li.grid {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
 /* set class of beauty to custoimize profile image */
 img.beauty {
   display: block;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
+  max-width: 220px;
   height: auto;
   border-style: solid;
   border-color: var(--english-violet);
@@ -120,6 +104,7 @@ img.beauty {
   margin-top: 100px;
   box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
     0 0 30px 40px var(--slate-gray);
+  margin-bottom: 40px;
 }
 /* hover effect when we hover over profile photo */
 img.beauty:hover {
@@ -131,36 +116,37 @@ img.beauty:hover {
 img:hover {
   border-style: solid;
   border-color: var(--deep-purple);
-  box-shadow: 0 0 10px 20px var(--deep-purple) 0 0 20px 30px
-      var(--english-violet),
-    0 0 30px 40px var(--silver);
-  zoom: 130%;
-}
-
-/* img styles */
-img {
-  box-shadow: 0 0 8px 10px var(--english-violet),
-    0 0 9px 11px var(--deep-purple), 0 0 10px 15px var(--emerald);
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  justify-content: center;
-}
-
-img.float {
-  float: right;
-  margin-bottom: 80px;
-  margin-left: 1500px;
   box-shadow: var(--english-violet) 5px 4px 8px 7px,
     0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
     0 0 30px 40px var(--silver);
+  zoom: 115%;
 }
+/* img styles */
+img {
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+  margin-bottom: -98px;
+  max-width: 150px;
+  height: 150px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+img.float {
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
+    0 0 30px 40px var(--slate-gray);
+  max-width: 150px;
+  height: 150px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
 /* about me paragraph styles */
-p.about-me {
+p {
   color: var(--silver);
-  margin-top: 100px;
+  margin-top: 170px;
   text-align: center;
   font-size: 22px;
   box-shadow: 0 0 10px 20px var(--deep-purple),
@@ -200,6 +186,7 @@ a {
   height: fit-content;
   cursor: grabbing;
   margin-bottom: 125px;
+  margin-top: 261px;
 }
 /* footer styles with hover effect  */
 footer.foot:hover {
