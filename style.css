@@ -21,6 +21,7 @@ header {
 
 figure {
   display: inline-flex;
+  flex-wrap: wrap;
 }
 figure:hover {
   display: inline-block;
