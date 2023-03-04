@@ -100,7 +100,8 @@ aside.img:hover {
 }
 
 li.grid {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 /* set class of beauty to custoimize profile image */
 img.beauty {
@@ -143,14 +144,14 @@ img {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 img.float {
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   margin-left: 1500px;
   box-shadow: var(--english-violet) 5px 4px 8px 7px,
     0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
@@ -193,7 +194,6 @@ a {
   flex-wrap: wrap;
   padding: 20px;
   text-align: center;
-  justify-content: center;
   max-width: 100%;
   font-size: 22px;
   margin: 76px;
