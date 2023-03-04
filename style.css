@@ -64,7 +64,6 @@ h1:hover {
   transform: scale(2, 1, 1);
   box-shadow: 0 0 8px 10px var(--silver), 0 0 9px 11px var(--deep-purple),
     0 0 10px 15px var(--english-violet);
-  text-
 }
 /* h1 styles borders/box-shadows/alignment */
 h1 {
