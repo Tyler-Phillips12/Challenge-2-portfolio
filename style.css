@@ -19,7 +19,6 @@ body {
   cursor: crosshair;
 }
 
-
 nav {
   text-align: center;
 }
@@ -29,7 +28,6 @@ section {
   text-align: center;
 }
 
-section.float-right
 /* heading margins and size */
 h1.html {
   margin-right: 30px;
