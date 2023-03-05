@@ -2,7 +2,7 @@
 Webpage to showcase my work and provide conatct information for future employers.
 
 # Screenshot of Web Page
-![tyler phillips portfolio](https://user-images.githubusercontent.com/123614404/222925130-28dab3ab-cf39-4760-a7a7-d9b8f13efd65.png)
+![PORTFOLIO-IMG](https://user-images.githubusercontent.com/123614404/222941481-4d770f57-e8ef-488c-9f55-9b5e51ca5a6b.png)
 
 
 # What is this?
