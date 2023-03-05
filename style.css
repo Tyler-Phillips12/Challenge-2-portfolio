@@ -2,7 +2,6 @@
 :root {
   --dark-green: #006400;
   --silver: #c0c5c1;
-  --office-green: #008000;
   --beige: #eaf0ce;
   --dark-vader: black;
   --light-saber: white;
@@ -10,30 +9,27 @@
   --slate-gray: #7d8491;
   --english-violet: #574b60;
   --deep-purple: #3f334d;
-  --margin-all-around: 20px;
-  --box-shadow: var(--dark-green) 10px 6px 8px 15px;
 }
 
-figure {
-  margin-top: 75px;
-  float: right;
-  justify-content: center;
-}
-figure:hover {
-  display: inline-block;
-}
 /* sets background color of page and font size/family and cursor */
 body {
-  background-color: var(--deep-purple);
+  background-color: var(--dark-vader);
   font-size: 20px;
   font-family: fantasy;
   cursor: crosshair;
 }
 
+
 nav {
-  display: inline-block;
-  scroll-behavior: smooth;
+  text-align: center;
 }
+
+section {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+section.float-right
 /* heading margins and size */
 h1.html {
   margin-right: 30px;
@@ -71,33 +67,31 @@ h1 {
   text-align: center;
   font-size: 30px;
 }
+
+h2 {
+  color: var(--silver);
+  border-style: double;
+  border-color: var(--slate-gray);
+  border-width: 10px;
+  padding: 40px;
+  margin-bottom: 65px;
+  margin-top: 115px;
+  box-shadow: 0 0 10px 20px var(--deep-purple),
+    0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
+  justify-content: center;
+  text-align: center;
+}
 /* hover effect when we hover over our <a */
 a:hover {
   box-shadow: 0 0 10px 20px var(--silver), 0 0 12px 25px var(--deep-purple),
     0 0 15px 30px var(--slate-gray);
 }
 
-aside {
-  display: flex;
-  justify-content: center;
-  float: left;
-}
-/* class of hover set so wont effect above aside */
-aside.img:hover {
-  border-style: groove;
-  border-width: 10px;
-  box-shadow: 0 0 10px 20px var(--deep-purple),
-    0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
-}
-
 /* set class of beauty to custoimize profile image */
 img.beauty {
-  display: block;
-  max-width: 220px;
-  height: auto;
+  display: inherit;
   border-style: solid;
   border-color: var(--english-violet);
-  border-radius: 750px;
   border-width: 7px;
   margin-left: auto;
   margin-right: auto;
@@ -125,12 +119,11 @@ img:hover {
 img {
   box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
     0 0 30px 40px var(--slate-gray);
-  margin-bottom: -98px;
-  max-width: 150px;
-  height: 150px;
+
+  max-width: 105px;
+  height: 105px;
   display: inline-flex;
   flex-wrap: wrap;
-  margin-top: 50px;
 }
 
 img.float {
@@ -138,39 +131,25 @@ img.float {
     0 0 30px 40px var(--slate-gray);
   max-width: 150px;
   height: 150px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  float: right;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 /* about me paragraph styles */
 p {
   color: var(--silver);
-  margin-top: 170px;
-  text-align: center;
   font-size: 22px;
-  box-shadow: 0 0 10px 20px var(--deep-purple),
-    0 0 20px 30px var(--english-violet), 0 0 30px 40px var(--silver);
-}
-/* hover effect for about me paragraph and scale transition */
-p.about-me:hover {
-  transform: scale(1.01, 1.05);
-  margin: 1;
-  box-shadow: 0 0 8px 10px var(--silver), 0 0 9px 11px var(--deep-purple),
-    0 0 10px 15px var(--emerald);
-}
-/* inline display for ul with content class */
-ul.content {
-  display: inline;
+  padding: 60px;
   text-align: center;
-  margin-top: 50px;
-  padding: 20px;
 }
+
 /* anchor styles  */
 a {
-  border-style: groove;
-  border-radius: 5px;
-  border-color: var(--english-violet);
   color: var(--silver);
   box-shadow: var(--english-violet) 5px 4px 8px 7px,
     0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
@@ -178,22 +157,13 @@ a {
   border-width: 5px;
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 20px;
-  text-align: center;
-  max-width: 100%;
-  font-size: 22px;
   margin: 76px;
-  height: fit-content;
   cursor: grabbing;
-  margin-bottom: 125px;
-  margin-top: 261px;
 }
-/* footer styles with hover effect  */
-footer.foot:hover {
+
+footer {
   color: var(--silver);
   text-align: center;
-  box-shadow: var(--silver) 5px 4px 8px 7px, 0 0 10px 20px var(--deep-purple),
-    0 0 20px 30px var(--english-violet), 0 0 30px 40px var(--slate-gray);
   border-width: 5px;
 }
 
