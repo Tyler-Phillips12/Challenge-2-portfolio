@@ -159,6 +159,10 @@ a {
   cursor: grabbing;
 }
 
+a::after {
+  content: "👀";
+}
+
 footer {
   color: var(--silver);
   text-align: center;
