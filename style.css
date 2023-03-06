@@ -169,5 +169,17 @@ footer {
   border-width: 5px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (max-width: 768px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  main {
+    margin-top: 7em;
+  }
+
+  section h2 {
+    font-size: 1.6em;
+  }
 }
