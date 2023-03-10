@@ -1,5 +1,5 @@
 # My Portfolio 
-Webpage to showcase my work and provide conatct information for future employers.
+Webpage to showcase my work and provide contact information for future employers.
 
 # Screenshot of Web Page
 ![PORTFOLIO-IMG](https://user-images.githubusercontent.com/123614404/222941481-4d770f57-e8ef-488c-9f55-9b5e51ca5a6b.png)
