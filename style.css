@@ -19,6 +19,12 @@ body {
   cursor: crosshair;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
 nav {
   text-align: center;
 }
@@ -98,12 +104,7 @@ img.beauty {
     0 0 30px 40px var(--slate-gray);
   margin-bottom: 40px;
 }
-/* hover effect when we hover over profile photo */
-img.beauty:hover {
-  box-shadow: 0 0 8px 10px var(--english-violet),
-    0 0 9px 11px var(--deep-purple), 0 0 10px 15px var(--slate-gray);
-  zoom: 200%;
-}
+
 /* hover effect over any img on the page expect those with designated classes */
 img:hover {
   border-style: solid;
@@ -118,10 +119,9 @@ img {
   box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--silver),
     0 0 30px 40px var(--slate-gray);
 
-  max-width: 105px;
-  height: 105px;
-  display: inline-flex;
-  flex-wrap: wrap;
+  max-width: 200px;
+  height: 200px;
+  margin-top: 30px;
 }
 
 img.float {
@@ -136,6 +136,8 @@ li {
   list-style: none;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* about me paragraph styles */
@@ -146,21 +148,31 @@ p {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 /* anchor styles  */
 a {
   color: var(--silver);
   box-shadow: var(--english-violet) 5px 4px 8px 7px,
-    0 0 10px 20px var(--deep-purple), 0 0 20px 30px var(--slate-gray),
-    0 0 30px 40px var(--silver);
-  border-width: 5px;
-  display: inline-flex;
+    0 0 5px 5px var(--deep-purple), 0 0 2px 3px var(--slate-gray),
+    0 0 3px 4px var(--silver);
+  display: flex;
   flex-wrap: wrap;
-  margin: 76px;
-  cursor: grabbing;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 65px;
+  text-align: center;
+  
 }
 
-a::after {
-  content: "👀";
+h3 {
+  color: var(--silver);
 }
 
 footer {
@@ -173,10 +185,6 @@ footer {
   header {
     display: block;
     text-align: center;
-  }
-
-  main {
-    margin-top: 7em;
   }
 
   section h2 {
