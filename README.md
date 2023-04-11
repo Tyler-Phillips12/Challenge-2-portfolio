@@ -2,8 +2,8 @@
 Webpage to showcase my work and provide contact information for future employers.
 
 # Screenshot of Web Page
-![PORTFOLIO-IMG](https://user-images.githubusercontent.com/123614404/222941481-4d770f57-e8ef-488c-9f55-9b5e51ca5a6b.png)
-https://tyler-phillips12.github.io/Challenge-2-Portfolio/
+<img width="1286" alt="portfolio_img" src="https://user-images.githubusercontent.com/123614404/231238841-bb1654fa-8356-4f3e-a79b-9c23064a3108.png">
+
 
 
 # What is this?
