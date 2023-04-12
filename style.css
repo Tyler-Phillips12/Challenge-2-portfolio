@@ -15,7 +15,7 @@
 body {
   background-color: var(--dark-vader);
   font-size: 20px;
-  font-family: fantasy;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   cursor: crosshair;
 }
 
@@ -24,9 +24,6 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
 
-}
-nav {
-  text-align: center;
 }
 
 section {
@@ -168,7 +165,6 @@ a {
   justify-content: space-around;
   margin: 65px;
   text-align: center;
-  
 }
 
 h3 {
@@ -179,6 +175,11 @@ footer {
   color: var(--silver);
   text-align: center;
   border-width: 5px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
