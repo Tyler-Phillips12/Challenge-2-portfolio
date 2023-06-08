@@ -15,7 +15,7 @@
 body {
   background-color: var(--dark-vader);
   font-size: 20px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   cursor: crosshair;
 }
 
@@ -23,29 +23,11 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
 }
 
 section {
   margin-bottom: 70px;
   text-align: center;
-}
-
-/* heading margins and size */
-h1.html {
-  margin-right: 30px;
-  width: 40px;
-  height: 40px;
-}
-
-h1.name {
-  text-align: center;
-  color: var(--silver);
-  border-style: double;
-  border-color: var(--slate-gray);
-  border-width: 10px;
-  padding: 40px;
-  font-size: 30px;
 }
 /* hover effect when we hover over h1 */
 h1:hover {
@@ -59,7 +41,7 @@ h1 {
   border-style: double;
   border-color: var(--slate-gray);
   border-width: 10px;
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 65px;
   margin-top: 40px;
   box-shadow: 0 0 10px 20px var(--deep-purple),
@@ -67,20 +49,31 @@ h1 {
   justify-content: center;
   text-align: center;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
 }
 
-h2 {
+h1#hello.name{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 5000px;
+}
+
+h2#about-me {
   color: var(--silver);
   border-style: double;
   border-color: var(--slate-gray);
   border-width: 10px;
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 65px;
   margin-top: 115px;
-  box-shadow: 0 0 10px 20px var(--deep-purple),
-    0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
-  justify-content: center;
+  box-shadow: 0 0 10px 20px var(--deep-purple), 0 0 12px 25px var(--english-violet), 0 0 15px 30px var(--silver);
   text-align: center;
+  max-width: none;
 }
 /* hover effect when we hover over our <a */
 a:hover {
@@ -141,13 +134,16 @@ li {
 p {
   color: var(--silver);
   font-size: 22px;
-  padding: 60px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -170,6 +166,10 @@ a {
 
 h3 {
   color: var(--silver);
+  color: var(--silver);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 footer {
@@ -177,19 +177,18 @@ footer {
   text-align: center;
   border-width: 5px;
   display: flex;
-  flex-direction:column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   header {
-    display: block;
-    text-align: center;
-  }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
 
   section h2 {
     font-size: 1.6em;
   }
-}
